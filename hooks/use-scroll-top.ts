@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 
-export default function useHeaderFixed(y = 100) {
-    const [headerFixed, setHeaderFixed] = useState<boolean>(false);
+export default function useScrollTop(y = 100): boolean {
+    const [scroll, setScroll] = useState<boolean>(false);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
             const handleScroll = () => {
                 if (window.scrollY > y) {
-                    setHeaderFixed(true);
+                    setScroll(true);
                 } else {
-                    setHeaderFixed(false);
+                    setScroll(false);
                 }
             };
 
@@ -21,5 +21,5 @@ export default function useHeaderFixed(y = 100) {
         }
     }, []);
 
-    return headerFixed;
+    return scroll;
 }

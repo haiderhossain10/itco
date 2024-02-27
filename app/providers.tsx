@@ -1,4 +1,5 @@
 "use client";
+import ScrollTop from "@/components/scroll-top";
 import { useEffect } from "react";
 
 // boostrap
@@ -24,6 +25,9 @@ export default function Providers({ children }: { children: React.ReactNode }) {
     }, []);
     return (
         <>
+            {/* scroll top part start */}
+            <ScrollTop />
+            {/* scroll top part end */}
             <div className="fix">{children}</div>
         </>
     );

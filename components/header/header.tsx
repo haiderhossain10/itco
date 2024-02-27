@@ -3,7 +3,7 @@ import Link from "next/link";
 import HeaderTop from "../ui/bar/header-top";
 import Image from "next/image";
 import Navigation from "./ui/navigation";
-import useHeaderFixed from "@/hooks/useHeaderFixed";
+import useHeaderFixed from "@/hooks/use-header-fixed";
 
 export default function Header() {
     // sticky header
