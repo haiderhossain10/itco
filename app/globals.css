@@ -6,6 +6,80 @@
 @import "./../public/assets/css/flaticon_itco.css";
 @import "./../public/assets/css/preloader.css";
 @import "./../public/assets/css/swiper.min.css";
+@import "./../public/assets/css/progressBar.min.css";
 @import "~/node_modules/react-modal-video/css/modal-video.min.css";
 @import "./../public/styles.css";
 @import "./../public/assets/css/responsive.css";
+
+/* progressbar part start */
+.ui-progressbar > div {
+    overflow: unset !important;
+}
+
+.ui-progressbar-label {
+    font-family: var(--thm-body-font);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--thm-white);
+    background: var(--thm-green);
+    padding: 0 8px;
+    height: 31px;
+    border-radius: 3px;
+    transform: translate(50%, -30px);
+    position: relative;
+}
+
+.ui-progressbar-label::before {
+    content: "";
+    position: absolute;
+    border-top: 10px solid var(--thm-green);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ab-progress .progress-title {
+    padding-bottom: 16px;
+}
+
+/* progressbar part end */
+
+/* dot pagination part start */
+.ui-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 60px;
+}
+
+.ui-pagination .swiper-pagination-bullet {
+    border-radius: 50%;
+    background: var(--thm-teal);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--thm-teal);
+    opacity: 1;
+}
+
+.ui-pagination .swiper-pagination-bullet-active {
+    position: relative;
+}
+
+.ui-pagination .swiper-pagination-bullet-active::after {
+    content: "";
+    height: 24px;
+    width: 24px;
+    border-color: var(--thm-teal);
+    border: 3px dotted var(--thm-teal);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+/* dot pagination part end */

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function About() {
@@ -12,9 +13,12 @@ export default function About() {
                                 data-wow-delay="500ms"
                                 data-wow-duration="1500ms"
                             >
-                                <img
-                                    src="assets/images/about/about01.png"
+                                <Image
+                                    src="/assets/images/about/about01.png"
                                     alt="about-img"
+                                    height={677}
+                                    width={509}
+                                    className="h-100"
                                 />
                             </div>
                             <div
@@ -22,9 +26,12 @@ export default function About() {
                                 data-wow-delay="500ms"
                                 data-wow-duration="1500ms"
                             >
-                                <img
-                                    src="assets/images/about/about02.png"
+                                <Image
+                                    src="/assets/images/about/about02.png"
                                     alt="about-img"
+                                    height={290}
+                                    width={234}
+                                    className="h-100"
                                 />
                             </div>
                         </div>
@@ -50,16 +57,16 @@ export default function About() {
                             </p>
                             <ul className="sec-list-item">
                                 <li>
-                                    <i className="fa-solid fa-square-check" />{" "}
+                                    <i className="fa-solid fa-square-check" />
                                     Development of Financial Models
                                 </li>
                                 <li>
-                                    <i className="fa-solid fa-square-check" />{" "}
+                                    <i className="fa-solid fa-square-check" />
                                     Nifty team is a diverse network of
                                     consultants
                                 </li>
                                 <li>
-                                    <i className="fa-solid fa-square-check" />{" "}
+                                    <i className="fa-solid fa-square-check" />
                                     Industry professionals with a global mindset
                                 </li>
                             </ul>
