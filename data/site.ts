@@ -21,6 +21,27 @@ export const services = [
     },
 ];
 
+export const services_2 = [
+    {
+        imgUrl: "/assets/images/service/service1.png",
+        icon: "flaticon-content-management",
+        title: "Content Management",
+        brief: "We focus on the best practices it solutions and for services.",
+    },
+    {
+        imgUrl: "/assets/images/service/service2.png",
+        icon: "flaticon-security",
+        title: "Information Security",
+        brief: "We focus on the best practices it solutions and for services.",
+    },
+    {
+        imgUrl: "/assets/images/service/service3.png",
+        icon: "flaticon-software-development",
+        title: "Software Development",
+        brief: "We focus on the best practices it solutions and for services.",
+    },
+];
+
 export const projects = [
     {
         imgUrl: "/assets/images/project/project1.png",
@@ -51,6 +72,24 @@ export const projects = [
         imgUrl: "/assets/images/project/project3.png",
         title: "Project Development",
         category: "It Management",
+    },
+];
+
+export const projects_2 = [
+    {
+        imgUrl: "/assets/images/project/project4.png",
+        title: "Software Development",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project5.png",
+        title: "Data processing",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project6.png",
+        title: "Digital Marketing",
+        category: "Portfolio Home - Futuristic",
     },
 ];
 
@@ -117,5 +156,61 @@ export const blogs = [
         imgUrl: "/assets/images/blog/blog-s3.png",
         title: "Analytical Solutions lorem ispsum take a trivial example, which of us ever under.",
         date: "Thu Jul 27 2023 00:16:40 GMT+0000",
+    },
+];
+
+export const teams = [
+    {
+        title: "Edoardo Romussi",
+        category: "Ui/Ux Designer",
+        imgUrl: "/assets/images/team/team1.png",
+    },
+    {
+        title: "Jessica James",
+        category: "Marketing Coordinator",
+        imgUrl: "/assets/images/team/team2.png",
+    },
+    {
+        title: "Adrian Williams",
+        category: "Web Designer",
+        imgUrl: "/assets/images/team/team3.png",
+    },
+    {
+        title: "Edoardo Romussi",
+        category: "Ui/Ux Designer",
+        imgUrl: "/assets/images/team/team1.png",
+    },
+    {
+        title: "Jessica James",
+        category: "Marketing Coordinator",
+        imgUrl: "/assets/images/team/team2.png",
+    },
+    {
+        title: "Adrian Williams",
+        category: "Web Designer",
+        imgUrl: "/assets/images/team/team3.png",
+    },
+];
+
+export const faq = [
+    {
+        title: "What Does Having Managed Your Services Provider?",
+        description:
+            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation.",
+    },
+    {
+        title: "What You About Say Your Business Palnning ?",
+        description:
+            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation.",
+    },
+    {
+        title: "You Have a Unique Way Of The Working in IT?",
+        description:
+            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation.",
+    },
+    {
+        title: "What Types Of Systems Do You Support ?",
+        description:
+            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation.",
     },
 ];

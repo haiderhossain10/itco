@@ -83,3 +83,7 @@
     z-index: 9;
 }
 /* dot pagination part end */
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+}

@@ -1,9 +1,30 @@
 import { Metadata } from "next";
+import Header2 from "@/components/header/header-2";
+import Hero from "@/components/pages/(home)/home-2/hero";
+import Service from "@/components/pages/(home)/home-2/service";
+import About from "@/components/pages/(home)/home-2/about";
+import Newslatter from "@/components/pages/(home)/home-2/newslatter";
+import Project from "@/components/pages/(home)/home-2/project";
+import Team from "@/components/pages/(home)/home-2/team";
+import Brand from "@/components/ui/sections/brand";
+import Faq from "@/components/pages/(home)/home-2/faq";
 
 export const metadata: Metadata = {
     title: "Home 2",
 };
 
 export default function Home2() {
-    return <div>page</div>;
+    return (
+        <>
+            <Header2 />
+            <Hero />
+            <Service />
+            <About />
+            <Newslatter />
+            <Project />
+            <Team />
+            <Brand />
+            <Faq />
+        </>
+    );
 }

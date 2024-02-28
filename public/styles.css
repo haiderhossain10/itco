@@ -2127,12 +2127,12 @@ label {
 }
 .faq-sec #accordion .accordion-content {
     padding: 0;
-    margin: 0 5px 20px;
+    padding: 0 5px 20px;
     border: none;
 }
-.faq-sec #accordion .accordion-content:last-child {
+/* .faq-sec #accordion .accordion-content:last-child {
     margin-bottom: 0;
-}
+} */
 .faq-sec .sec-images {
     margin-left: 76px;
 }
