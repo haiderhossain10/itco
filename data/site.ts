@@ -141,6 +141,35 @@ export const testimonials = [
     },
 ];
 
+export const testimonials_2 = [
+    {
+        description: `“Iqbal is fantastic, he understood our requirements in no time and delivered results right on our expectations. He was supportive all through the engagement.”`,
+        name: "Joshua Liddell",
+        title: "Company Owner",
+        imgUrl: "/assets/images/testimonial/tc1.png",
+    },
+    {
+        description: `“Iqbal is fantastic, he understood our
+        requirements in no time and delivered
+        results right on our expectations. He
+        was supportive all through the
+        engagement.”`,
+        name: "Arush Aggarwal",
+        title: "Senior Manager",
+        imgUrl: "/assets/images/testimonial/tc2.png",
+    },
+    {
+        description: `“Iqbal is fantastic, he understood our
+        requirements in no time and delivered
+        results right on our expectations. He
+        was supportive all through the
+        engagement.”`,
+        name: "Rosy Gaggero",
+        title: "Ceo And Founder",
+        imgUrl: "/assets/images/testimonial/tc3.png",
+    },
+];
+
 export const blogs = [
     {
         imgUrl: "/assets/images/blog/blog-s1.png",
