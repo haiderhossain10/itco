@@ -40,6 +40,24 @@ export const services_2 = [
         title: "Software Development",
         brief: "We focus on the best practices it solutions and for services.",
     },
+    {
+        imgUrl: "/assets/images/service/service7.png",
+        icon: "flaticon-content-management",
+        title: "Content Management",
+        brief: "We focus on the best practices it solutions and for services.",
+    },
+    {
+        imgUrl: "/assets/images/service/service8.png",
+        icon: "flaticon-bullhorn",
+        title: "Digital Marketing",
+        brief: "We focus on the best practices it solutions and for services.",
+    },
+    {
+        imgUrl: "/assets/images/service/service9.png",
+        icon: "flaticon-technical-support",
+        title: "Tech Support Pro",
+        brief: "We focus on the best practices it solutions and for services.",
+    },
 ];
 
 export const services_3 = [

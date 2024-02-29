@@ -1,5 +1,5 @@
 import { prices } from "@/data/site";
-import PriceCard from "./ui/price-card";
+import PriceCard from "../../pages/(home)/home-1/ui/price-card";
 
 export default function Pricing() {
     return (

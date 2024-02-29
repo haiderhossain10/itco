@@ -53,6 +53,7 @@ export default function Service() {
                                         <p>{item.brief}</p>
                                         <Link href="/service-details">
                                             <i className="flaticon-right-arrow" />
+                                            a
                                         </Link>
                                     </div>
                                 </div>

@@ -17,7 +17,7 @@ export default function Service() {
                 </div>
                 <div className="row">
                     {/* service part start */}
-                    {services_2?.slice(0, 3).map((item, i) => (
+                    {services_2?.slice(0, 6).map((item, i) => (
                         <div key={i} className="col-md-6 col-lg-4">
                             <ServiceCard data={item} index={i} />
                         </div>
