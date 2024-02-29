@@ -297,8 +297,6 @@ export const blogs = [
     },
 ];
 
-
-
 export const teams = [
     {
         title: "Edoardo Romussi",

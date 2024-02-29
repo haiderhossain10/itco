@@ -45,3 +45,11 @@ export interface BlogType {
     title: string;
     date: string;
 }
+
+export interface BreadcumbType {
+    title: string;
+    list: {
+        name: string;
+        url: string;
+    }[];
+}
