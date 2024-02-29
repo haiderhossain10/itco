@@ -5,7 +5,7 @@ import Service from "@/components/pages/(home)/home-2/service";
 import About from "@/components/pages/(home)/home-2/about";
 import Newslatter from "@/components/pages/(home)/home-2/newslatter";
 import Project from "@/components/pages/(home)/home-2/project";
-import Team from "@/components/pages/(home)/home-2/team";
+import Team from "@/components/ui/sections/team";
 import Brand from "@/components/ui/sections/brand";
 import Faq from "@/components/pages/(home)/home-2/faq";
 import Testimonial from "@/components/pages/(home)/home-2/testimonial";

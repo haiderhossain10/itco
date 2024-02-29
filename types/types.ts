@@ -9,6 +9,13 @@ export interface TestimonialType {
     imgUrl: string;
 }
 
+export interface Team2Type {
+    imgUrl: string;
+    name: string;
+    title: string;
+    description: string;
+}
+
 export interface ServiceType {
     imgUrl: string;
     icon: string;
@@ -31,4 +38,10 @@ export interface TeamType {
 export interface FaqType {
     title: string;
     description: string;
+}
+
+export interface BlogType {
+    imgUrl: string;
+    title: string;
+    date: string;
 }

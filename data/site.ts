@@ -42,6 +42,33 @@ export const services_2 = [
     },
 ];
 
+export const services_3 = [
+    {
+        icon: "flaticon-software-development",
+        title: "Data Analysis",
+    },
+    {
+        icon: "flaticon-ux-design",
+        title: "Ui/Ux Designing",
+    },
+    {
+        icon: "flaticon-app-development",
+        title: "App Development",
+    },
+    {
+        icon: "flaticon-bullhorn",
+        title: "Digital Marketing",
+    },
+    {
+        icon: "flaticon-system",
+        title: "IT Management",
+    },
+    {
+        icon: "flaticon-content-management",
+        title: "Cyber Security",
+    },
+];
+
 export const projects = [
     {
         imgUrl: "/assets/images/project/project1.png",
@@ -89,6 +116,49 @@ export const projects_2 = [
     {
         imgUrl: "/assets/images/project/project6.png",
         title: "Digital Marketing",
+        category: "Portfolio Home - Futuristic",
+    },
+];
+
+export const projects_3 = [
+    {
+        imgUrl: "/assets/images/project/project4.png",
+        title: "Data processing",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project07.png",
+        title: "Web Analysis",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project08.png",
+        title: "Digital Marketing",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project09.png",
+        title: "Software Development",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project4.png",
+        title: "Data processing",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project07.png",
+        title: "Web Analysis",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project08.png",
+        title: "Digital Marketing",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project09.png",
+        title: "Software Development",
         category: "Portfolio Home - Futuristic",
     },
 ];
@@ -170,6 +240,45 @@ export const testimonials_2 = [
     },
 ];
 
+export const testimonials_3 = [
+    {
+        imgUrl: "/assets/images/testimonial/tcst1.png",
+        name: "Brian Dee",
+        title: "Owner & Ceo",
+        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+    },
+    {
+        imgUrl: "/assets/images/testimonial/tcst2.png",
+        name: "Joshua Liddell",
+        title: "Company Owner",
+        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+    },
+    {
+        imgUrl: "/assets/images/testimonial/tcst1.png",
+        name: "Brian Dee",
+        title: "Owner & Ceo",
+        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+    },
+    {
+        imgUrl: "/assets/images/testimonial/tcst2.png",
+        name: "Joshua Liddell",
+        title: "Company Owner",
+        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+    },
+    {
+        imgUrl: "/assets/images/testimonial/tcst1.png",
+        name: "Brian Dee",
+        title: "Owner & Ceo",
+        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+    },
+    {
+        imgUrl: "/assets/images/testimonial/tcst2.png",
+        name: "Joshua Liddell",
+        title: "Company Owner",
+        description: `“I requested a UI update gig and received job excellent from Maria! talented young UI/UX designer who will beat your Great experience and quick feedback.”`,
+    },
+];
+
 export const blogs = [
     {
         imgUrl: "/assets/images/blog/blog-s1.png",
@@ -187,6 +296,8 @@ export const blogs = [
         date: "Thu Jul 27 2023 00:16:40 GMT+0000",
     },
 ];
+
+
 
 export const teams = [
     {

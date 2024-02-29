@@ -1,29 +1,28 @@
 "use client";
+import TeamCard from "../../pages/(home)/home-2/ui/team-card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import { teams } from "@/data/site";
 import { Navigation } from "swiper/modules";
-import { projects } from "@/data/site";
-import Image from "next/image";
-import Link from "next/link";
 
-export default function Project() {
+export default function Team() {
     return (
-        <section className="project-sec sec-ptb">
+        <section className="team-sec sec-ptb bg-light-greem">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="sec-content">
-                            <h6 className="sec-sub-title">Latest Project</h6>
+                            <h6 className="sec-sub-title">Our Team Members</h6>
                             <h2 className="sec-title">
-                                Let’s Looks Our Global Projects
+                                Building A Smarter future Through IT
                             </h2>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <div className="project-slider pt-5">
+                        <div className="team-slider position-relative pt-5">
                             <Swiper
                                 spaceBetween={30}
                                 navigation={{
@@ -31,7 +30,6 @@ export default function Project() {
                                     prevEl: ".owl-prev",
                                 }}
                                 modules={[Navigation]}
-                                loop={true}
                                 breakpoints={{
                                     0: {
                                         slidesPerView: 1,
@@ -43,39 +41,15 @@ export default function Project() {
                                         slidesPerView: 3,
                                     },
                                 }}
+                                loop={true}
                             >
-                                {projects?.slice(0, 6).map((item, i) => (
+                                {teams?.slice(0, 6).map((item, i) => (
                                     <SwiperSlide key={i}>
-                                        <div className="item single-project">
-                                            <div className="project-img">
-                                                <Image
-                                                    src={item.imgUrl}
-                                                    alt="project"
-                                                    height={396}
-                                                    width={412}
-                                                    className="h-100"
-                                                />
-                                            </div>
-                                            <div className="project-title">
-                                                <h5>
-                                                    <Link href="/project_details">
-                                                        {item.title}
-                                                    </Link>
-                                                </h5>
-                                                <span className="project-cat">
-                                                    {item.category}
-                                                </span>
-                                                <Link
-                                                    href="/project_details"
-                                                    className="project-btn"
-                                                >
-                                                    <i className="flaticon-right-arrow" />
-                                                </Link>
-                                            </div>
-                                        </div>
+                                        <TeamCard data={item} />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
+
                             <div className="owl-nav">
                                 <a
                                     href="#"

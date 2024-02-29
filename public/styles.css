@@ -712,6 +712,7 @@ label {
 /*=============================
 	7. Hero section CSS
 ===============================*/
+
 .hero-content {
     position: relative;
     margin-right: 3%;
@@ -947,7 +948,7 @@ label {
     border-color: var(--thm-teal);
 }
 
-.hero-slider .owl-item.active span.hero-tagline {
+.hero-slider .swiper-slide-active span.hero-tagline {
     -webkit-animation: fadeInDown;
     animation: fadeInDown;
     -webkit-animation-duration: 2s;
@@ -956,7 +957,7 @@ label {
     animation-delay: 0.6s;
     opacity: 1;
 }
-.hero-slider .owl-item.active h1.hero-title {
+.hero-slider .swiper-slide-active h1.hero-title {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-duration: 1.5s;
@@ -965,7 +966,7 @@ label {
     animation-delay: 0.6s;
     opacity: 1;
 }
-.hero-slider .owl-item.active p {
+.hero-slider .swiper-slide-active p {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-duration: 2s;
@@ -974,7 +975,7 @@ label {
     animation-delay: 1s;
     opacity: 1;
 }
-.hero-slider .owl-item.active .hero-content .hero-btn-area {
+.hero-slider .swiper-slide-active .hero-content .hero-btn-area {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-duration: 2s;
@@ -1543,7 +1544,7 @@ label {
     flex-direction: column;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: end;
+    justify-content: flex-end;
     background: linear-gradient(
         1deg,
         #16a571 0.94%,
