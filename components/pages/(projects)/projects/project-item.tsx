@@ -1,7 +1,7 @@
+import ProjectCard from "@/components/ui/cards/project-card";
 import { projects_2 } from "@/data/site";
-import ProjectCard from "../../../ui/cards/project-card";
 
-export default function Project() {
+export default function ProjectItem() {
     return (
         <section className="project-sec2 sec-ptb">
             <div className="container">
@@ -17,7 +17,7 @@ export default function Project() {
                 </div>
                 <div className="row">
                     {/* project part start */}
-                    {projects_2?.slice(0, 3).map((item, i) => (
+                    {projects_2?.slice(0, 6).map((item, i) => (
                         <div key={i} className="col-md-6 col-lg-4">
                             <ProjectCard data={item} index={i} />
                         </div>

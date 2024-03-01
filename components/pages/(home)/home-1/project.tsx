@@ -58,7 +58,7 @@ export default function Project() {
                                             </div>
                                             <div className="project-title">
                                                 <h5>
-                                                    <Link href="/project_details">
+                                                    <Link href="/project-details">
                                                         {item.title}
                                                     </Link>
                                                 </h5>
@@ -66,7 +66,7 @@ export default function Project() {
                                                     {item.category}
                                                 </span>
                                                 <Link
-                                                    href="/project_details"
+                                                    href="/project-details"
                                                     className="project-btn"
                                                 >
                                                     <i className="flaticon-right-arrow" />

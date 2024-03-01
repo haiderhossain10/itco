@@ -1,6 +1,6 @@
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
-import ServiceInfo from "@/components/pages/(services)/service-info";
+import ServiceInfo from "@/components/pages/(services)/service-details/service-info";
 import Breadcumb from "@/components/ui/breadcumbs/breadcumb";
 import Subscribe from "@/components/ui/sections/subscribe";
 import { Metadata } from "next";

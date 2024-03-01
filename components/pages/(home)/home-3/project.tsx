@@ -62,7 +62,7 @@ export default function Project() {
                                             </div>
                                             <div className="project-title">
                                                 <h5>
-                                                    <Link href="/project_details">
+                                                    <Link href="/project-details">
                                                         {item.title}
                                                     </Link>
                                                 </h5>

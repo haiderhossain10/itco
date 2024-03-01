@@ -136,6 +136,21 @@ export const projects_2 = [
         title: "Digital Marketing",
         category: "Portfolio Home - Futuristic",
     },
+    {
+        imgUrl: "/assets/images/project/project07.png",
+        title: "Web Analysis",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project08.png",
+        title: "Data processing",
+        category: "Portfolio Home - Futuristic",
+    },
+    {
+        imgUrl: "/assets/images/project/project09.png",
+        title: "Digital Marketing",
+        category: "Portfolio Home - Futuristic",
+    },
 ];
 
 export const projects_3 = [
