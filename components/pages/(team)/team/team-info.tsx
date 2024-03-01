@@ -18,8 +18,8 @@ export default function TeamInfo() {
                 <div className="row">
                     {/* team card part start */}
                     {teams?.slice(0, 6).map((item, i) => (
-                        <div className="col-md-6 col-lg-4">
-                            <TeamCard key={i} data={item} />
+                        <div key={i} className="col-md-6 col-lg-4">
+                            <TeamCard data={item} />
                         </div>
                     ))}
                     {/* team card part end */}
