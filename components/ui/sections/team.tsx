@@ -1,5 +1,5 @@
 "use client";
-import TeamCard from "../../pages/(home)/home-2/ui/team-card";
+import TeamCard from "../cards/team-card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -22,6 +22,7 @@ export default function Team() {
                 </div>
                 <div className="row">
                     <div className="col">
+                        {/* team slider card part start */}
                         <div className="team-slider position-relative pt-5">
                             <Swiper
                                 spaceBetween={30}
@@ -67,6 +68,7 @@ export default function Team() {
                                 </a>
                             </div>
                         </div>
+                        {/* team slider card part end */}
                     </div>
                 </div>
             </div>

@@ -332,19 +332,19 @@ export const teams = [
         imgUrl: "/assets/images/team/team3.png",
     },
     {
-        title: "Edoardo Romussi",
-        category: "Ui/Ux Designer",
-        imgUrl: "/assets/images/team/team1.png",
+        title: "Laci Pletcher",
+        category: "Process Analyst",
+        imgUrl: "/assets/images/team/team4.png",
     },
     {
-        title: "Jessica James",
-        category: "Marketing Coordinator",
-        imgUrl: "/assets/images/team/team2.png",
+        title: "Alex Brown",
+        category: "Co-Founder",
+        imgUrl: "/assets/images/team/team5.png",
     },
     {
-        title: "Adrian Williams",
-        category: "Web Designer",
-        imgUrl: "/assets/images/team/team3.png",
+        title: "Rebecca Davis",
+        category: "Web Developer",
+        imgUrl: "/assets/images/team/team6.png",
     },
 ];
 
