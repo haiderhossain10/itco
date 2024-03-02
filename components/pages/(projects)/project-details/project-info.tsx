@@ -1,16 +1,28 @@
 import Image from "next/image";
-import ServiceDetailsSidebar from "./service-details-sidebar";
+import ProjectDetailsSidebar from "./project-details-sidebar";
 
-export default function ServiceInfo() {
+const images = [
+    "/assets/images/service/sfeature1.png",
+    "/assets/images/service/sfeature2.png",
+    "/assets/images/project/pfeature1.png",
+    "/assets/images/project/pfeature2.png",
+];
+
+export default function ProjectInfo() {
     return (
         <section className="service-details sec-ptb">
             <div className="container">
-                <div className="row">
+                <div className="row flex-column-reverse flex-xl-row">
+                    {/* project details sidebar part start */}
+                    <div className="col-xl-4">
+                        <ProjectDetailsSidebar />
+                    </div>
+                    {/* project details sidebar part end */}
                     <div className="col-xl-8">
                         <div className="service-details-wrapper">
                             <div className="feature-img">
                                 <Image
-                                    src="/assets/images/service/sfeature.png"
+                                    src="/assets/images/project/project-feature.png"
                                     alt="feature"
                                     height={516}
                                     width={856}
@@ -24,7 +36,7 @@ export default function ServiceInfo() {
                                         data-wow-delay="0.5s"
                                         data-wow-duration="1500ms"
                                     >
-                                        Service Overview
+                                        Solutions That Work For You
                                     </h2>
                                     <p className="mb-4">
                                         Lorem ipsum is simply free text used by
@@ -69,36 +81,28 @@ export default function ServiceInfo() {
                                         strategy, marketing, design.
                                     </p>
                                     <div className="row">
-                                        <div className="col-lg-6 mb-4">
+                                        {images?.map((item, i) => (
                                             <div
-                                                className="info-part-img wow fadeInUp"
-                                                data-wow-delay="0.5s"
-                                                data-wow-duration="1500ms"
+                                                key={i}
+                                                className="col-lg-6 mb-4"
                                             >
-                                                <Image
-                                                    src="/assets/images/service/sfeature1.png"
-                                                    alt="feature"
-                                                    height={310}
-                                                    width={416}
-                                                    className="h-100"
-                                                />
+                                                <div
+                                                    className="info-part-img wow fadeInUp"
+                                                    data-wow-delay={`0.${
+                                                        i * 2
+                                                    }s`}
+                                                    data-wow-duration="1500ms"
+                                                >
+                                                    <Image
+                                                        src={item}
+                                                        alt="feature"
+                                                        height={310}
+                                                        width={416}
+                                                        className="h-100"
+                                                    />
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div className="col-lg-6 mb-4">
-                                            <div
-                                                className="info-part-img wow fadeInUp"
-                                                data-wow-delay="0.8s"
-                                                data-wow-duration="1500ms"
-                                            >
-                                                <Image
-                                                    src="/assets/images/service/sfeature2.png"
-                                                    alt="feature"
-                                                    height={310}
-                                                    width={416}
-                                                    className="h-100"
-                                                />
-                                            </div>
-                                        </div>
+                                        ))}
                                     </div>
                                     <p>
                                         When an unknown printer took a galley of
@@ -112,7 +116,7 @@ export default function ServiceInfo() {
                                     </p>
                                 </div>
                                 <div className="info-part mb-0">
-                                    <h4>Services All Details</h4>
+                                    <h4>Work startup with us</h4>
                                     <p className="mb-4">
                                         Cast obscure badger jeep quail
                                         congenialy when changed as cat jeepers
@@ -143,12 +147,18 @@ export default function ServiceInfo() {
                                             Laoreet
                                         </li>
                                     </ul>
+                                    <p className="mt-4">
+                                        These solutions adapt innovative ideas
+                                        to match your requirements, making
+                                        cutting-edge concepts touch practical
+                                        and beneficial for your specific
+                                        situation. Get in touch Your Name Your
+                                        Mail Write you Comment Submit Contact us
+                                        Get in touch Your Name Your Mail.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-xl-4">
-                        <ServiceDetailsSidebar />
                     </div>
                 </div>
             </div>

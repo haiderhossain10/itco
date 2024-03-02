@@ -385,3 +385,30 @@ export const faq = [
             "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation.",
     },
 ];
+
+export const service_list = [
+    {
+        name: "Content Management",
+        url: "/service-details",
+    },
+    {
+        name: "Information Security",
+        url: "/service-details",
+    },
+    {
+        name: "Software Development",
+        url: "/service-details",
+    },
+    {
+        name: "Web Analysis",
+        url: "/service-details",
+    },
+    {
+        name: "Digital Marketing",
+        url: "/service-details",
+    },
+    {
+        name: "Tech Support Pro",
+        url: "/service-details",
+    },
+];
