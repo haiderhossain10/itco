@@ -1,6 +1,6 @@
 export default function SidebarForm() {
     return (
-        <form action="mail.php" method="post" className="itco-cform itco-sform">
+        <form className="itco-cform itco-sform">
             <div className="row">
                 <div className="col-sm-6 col-xl-12">
                     <div className="contact-field">

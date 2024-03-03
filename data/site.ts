@@ -330,6 +330,24 @@ export const blogs = [
     },
 ];
 
+export const blogs_2 = [
+    {
+        imgUrl: "/assets/images/blog/blogg1.png",
+        title: "Everything you need to learn about IT Solution for your Company.",
+        description: `With over a decade of experience, we’ve established ourselves as one of the pioneering agencies in the . Our small, flexible, agile and design-led structures and processes allow us to be highly responsive and innovative. We’re made of passionate leaders, strategists, managers, developers, animators designer who work gether under one umbrella. We are a digitally-led, full-service creative agency.`,
+    },
+    {
+        imgUrl: "/assets/images/blog/blogg2.png",
+        title: "It's Time To Design Your Dream Outdoor Living Space",
+        description: `With over a decade of experience, we’ve established ourselves as one of the pioneering agencies in the . Our small, flexible, agile and design-led structures and processes allow us to be highly responsive and innovative. We’re made of passionate leaders, strategists, managers, developers, animators designer who work gether under one umbrella. We are a digitally-led, full-service creative agency.`,
+    },
+    {
+        imgUrl: "/assets/images/blog/blogg3.png",
+        title: "Maximizing Productivity with IT Support Service",
+        description: `With over a decade of experience, we’ve established ourselves as one of the pioneering agencies in the . Our small, flexible, agile and design-led structures and processes allow us to be highly responsive and innovative. We’re made of passionate leaders, strategists, managers, developers, animators designer who work gether under one umbrella. We are a digitally-led, full-service creative agency.`,
+    },
+];
+
 export const teams = [
     {
         title: "Edoardo Romussi",

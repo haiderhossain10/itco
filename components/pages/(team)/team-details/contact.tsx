@@ -20,11 +20,7 @@ export default function Contact() {
                         data-wow-delay="0ms"
                         data-wow-duration="1500ms"
                     >
-                        <form
-                            action="mail.php"
-                            method="post"
-                            className="itco-cform"
-                        >
+                        <form className="itco-cform">
                             <div className="row">
                                 <div className="col-sm-6">
                                     <div className="contact-field">

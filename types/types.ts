@@ -46,6 +46,12 @@ export interface BlogType {
     date: string;
 }
 
+export interface BlogType2 {
+    imgUrl: string;
+    title: string;
+    description: string;
+}
+
 export interface BreadcumbType {
     title: string;
     list: {

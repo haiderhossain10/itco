@@ -1,5 +1,6 @@
 "use client";
 import ScrollTop from "@/components/scroll-top";
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 // boostrap
@@ -8,6 +9,8 @@ if (typeof window !== "undefined") {
 }
 
 export default function Providers({ children }: { children: React.ReactNode }) {
+    const path = usePathname();
+
     // WOW.js
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -19,10 +22,11 @@ export default function Providers({ children }: { children: React.ReactNode }) {
                     mobile: false,
                     live: true,
                 });
-                wow.init();
+                wow.init({});
             });
         }
-    }, []);
+    }, [path]);
+
     return (
         <>
             {/* scroll top part start */}
