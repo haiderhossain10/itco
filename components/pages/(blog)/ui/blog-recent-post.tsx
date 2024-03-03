@@ -11,7 +11,10 @@ export default function BlogRecentPost() {
                 <ul>
                     {/* recent blog part start */}
                     {footer_blogs?.map((item, i) => (
-                        <li className="blog-sidebar-box-item blog-item d-flex">
+                        <li
+                            key={i}
+                            className="blog-sidebar-box-item blog-item d-flex"
+                        >
                             <div className="img-box">
                                 <Image
                                     src={item.imgUrl}
