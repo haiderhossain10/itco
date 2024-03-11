@@ -1,5 +1,4 @@
 import { blogs } from "@/data/site";
-import moment from "moment";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -107,11 +106,7 @@ export default function LatestBlog() {
                                                         </div>
                                                         <span>
                                                             <Link href="/">
-                                                                {moment(
-                                                                    item.date
-                                                                ).format(
-                                                                    "MMM  DD, YYYY "
-                                                                )}
+                                                                Dec 27, 2023
                                                             </Link>
                                                         </span>
                                                     </li>

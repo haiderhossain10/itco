@@ -4,7 +4,6 @@ import {
     social_links,
     useful_links,
 } from "@/data/footer";
-import moment from "moment";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -127,11 +126,9 @@ export default function Footer() {
                                                                     </div>
                                                                     <span>
                                                                         <Link href="/">
-                                                                            {moment(
-                                                                                item.date
-                                                                            ).format(
-                                                                                "MMM  DD, YYYY "
-                                                                            )}
+                                                                            Dec
+                                                                            27,
+                                                                            2023
                                                                         </Link>
                                                                     </span>
                                                                 </li>
