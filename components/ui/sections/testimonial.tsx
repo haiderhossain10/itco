@@ -1,5 +1,5 @@
 "use client";
-import TestimonialCard from "../../pages/(home)/home-1/ui/testimonial-card";
+import TestimonialCard from "../cards/testimonial-card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

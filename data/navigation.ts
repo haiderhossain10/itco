@@ -53,6 +53,10 @@ export default [
                 url: "/project-details",
             },
             {
+                name: "Testimonials",
+                url: "/testimonials",
+            },
+            {
                 name: "404",
                 url: "/404",
             },

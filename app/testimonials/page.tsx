@@ -1,36 +1,34 @@
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
-import ContactForm from "@/components/pages/contact/contact-form";
-import ContactMap from "@/components/pages/contact/contact-map";
+import TestimonialsList from "@/components/pages/testimonials/testimonials-list";
 import Breadcumb from "@/components/ui/breadcumbs/breadcumb";
 import Subscribe from "@/components/ui/sections/subscribe";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact Us",
+    title: "Testimonials",
 };
 
 const breadcumb_data = {
-    title: "Contact Us",
+    title: "Testimonials",
     list: [
         {
             name: "Home",
             url: "/",
         },
         {
-            name: "Contact",
-            url: "/contact",
+            name: "Testimonials",
+            url: "/testimonials",
         },
     ],
 };
 
-export default function Contact() {
+export default function Testimonials() {
     return (
         <>
             <Header />
             <Breadcumb data={breadcumb_data} />
-            <ContactMap />
-            <ContactForm />
+            <TestimonialsList />
             <Subscribe />
             <Footer />
         </>
