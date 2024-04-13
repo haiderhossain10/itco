@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Providers from "./providers";
 import "./globals.css";
 import { Outfit } from "next/font/google";
+import SidebarNavigation from "@/components/sidebar/sidebar-navigation";
 
 const outfit = Outfit({
     subsets: ["latin"],
@@ -26,7 +27,10 @@ export default function RootLayout({
     return (
         <html lang="en" className={outfit.className}>
             <body>
-                <Providers>{children}</Providers>
+                <Providers>
+                    {children}
+                    <SidebarNavigation />
+                </Providers>
             </body>
         </html>
     );

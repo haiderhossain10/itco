@@ -87,3 +87,26 @@
 .ReactCollapse--collapse {
     transition: height 500ms;
 }
+
+.offcanvas.show {
+    visibility: visible;
+    opacity: 1;
+}
+.offcanvas {
+    opacity: 0;
+}
+
+.css-dip3t8 {
+    background-color: unset !important;
+}
+.css-1wvake5 {
+    border-right: 0 !important;
+    width: 100% !important;
+}
+
+.mobile-menu-unset {
+    all: unset;
+}
+.mobile-menu-unset .social-links ul {
+    justify-content: flex-start;
+}

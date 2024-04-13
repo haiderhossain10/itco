@@ -29,7 +29,12 @@ export default function Header3() {
                                             />
                                         </Link>
                                     </div>
-                                    <i className="fas fa-bars" />
+                                    <i
+                                        className="fas fa-bars"
+                                        data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasExample"
+                                        aria-controls="offcanvasExample"
+                                    />
                                 </div>
                                 <div className="menu-wrap">
                                     <nav className="menu-nav">

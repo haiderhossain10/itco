@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import FaqCollapse from "./ui/faq-collapse";
+import FaqCollapse from "../faq/faq-collapse";
 import { faq } from "@/data/site";
 import Image from "next/image";
 

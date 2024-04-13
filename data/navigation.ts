@@ -57,6 +57,14 @@ export default [
                 url: "/testimonials",
             },
             {
+                name: "Price Plan",
+                url: "/price-plan",
+            },
+            {
+                name: "FAQ",
+                url: "/faqs",
+            },
+            {
                 name: "404",
                 url: "/404",
             },

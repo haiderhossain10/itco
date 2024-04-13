@@ -7,7 +7,7 @@ import Newslatter from "@/components/pages/(home)/home-2/newslatter";
 import Project from "@/components/pages/(home)/home-2/project";
 import Team from "@/components/ui/sections/team";
 import Brand from "@/components/ui/sections/brand";
-import Faq from "@/components/pages/(home)/home-2/faq";
+import Faq from "@/components/ui/sections/faq";
 import Testimonial from "@/components/pages/(home)/home-2/testimonial";
 import LatestBlog from "@/components/pages/(home)/home-2/latest-blog";
 import Subscribe from "@/components/ui/sections/subscribe";
