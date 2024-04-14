@@ -2,7 +2,7 @@ export default function GetAQuote() {
     return (
         <div className="sec-content">
             <h2 className="sec-title">Get A Quote</h2>
-            <form action="mail.php" method="post" className="itco-cform">
+            <form method="post" className="itco-cform">
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="contact-field">
