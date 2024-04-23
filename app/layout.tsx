@@ -3,6 +3,7 @@ import Providers from "./providers";
 import "./globals.css";
 import { Outfit } from "next/font/google";
 import SidebarNavigation from "@/components/sidebar/sidebar-navigation";
+import Preloader from "@/components/preloader";
 
 const outfit = Outfit({
     subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
         <html lang="en" className={outfit.className}>
             <body>
                 <Providers>
+                    <Preloader />
                     {children}
                     <SidebarNavigation />
                 </Providers>
