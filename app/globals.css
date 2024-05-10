@@ -88,6 +88,7 @@
     transition: height 500ms;
 }
 
+/* mobile sidebar start */
 .offcanvas.show {
     visibility: visible;
     opacity: 1;
@@ -110,3 +111,17 @@
 .mobile-menu-unset .social-links ul {
     justify-content: flex-start;
 }
+
+/* mobile sidebar end */
+
+/* navigation active start */
+.ui-active-parent-1 {
+    color: var(--thm-secondary) !important;
+}
+
+.ui-active-1 {
+    background-color: var(--thm-secondary) !important;
+    color: white !important;
+}
+
+/* navigation active end */

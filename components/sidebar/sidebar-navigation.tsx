@@ -2,6 +2,7 @@
 import navigation from "@/data/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 
 const socialLinks = [
@@ -28,6 +29,8 @@ const socialLinks = [
 ];
 
 export default function SidebarNavigation() {
+    const path = usePathname();
+
     return (
         <>
             <div
@@ -60,12 +63,34 @@ export default function SidebarNavigation() {
                         <Menu>
                             {navigation?.map((item, i) =>
                                 item.dropdown ? (
-                                    <SubMenu key={i} label={item.name}>
+                                    <SubMenu
+                                        key={i}
+                                        label={
+                                            <span
+                                                className={
+                                                    item.dropdown.some(
+                                                        (dd) => dd.url === path
+                                                    )
+                                                        ? "ui-active-parent-1"
+                                                        : ""
+                                                }
+                                            >
+                                                {item.name}
+                                            </span>
+                                        }
+                                    >
                                         {item.dropdown.map((item2, i2) => (
                                             <MenuItem
                                                 key={i2}
                                                 component={
-                                                    <Link href={item2.url} />
+                                                    <Link
+                                                        className={
+                                                            path === item2.url
+                                                                ? "ui-active-1"
+                                                                : ""
+                                                        }
+                                                        href={item2.url}
+                                                    />
                                                 }
                                             >
                                                 <div
@@ -80,7 +105,16 @@ export default function SidebarNavigation() {
                                 ) : (
                                     <MenuItem
                                         key={i}
-                                        component={<Link href={item.url} />}
+                                        component={
+                                            <Link
+                                                className={
+                                                    path === item.url
+                                                        ? "ui-active-parent-1"
+                                                        : ""
+                                                }
+                                                href={item.url}
+                                            />
+                                        }
                                     >
                                         <div
                                             data-bs-dismiss="offcanvas"
